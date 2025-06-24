@@ -1,0 +1,7 @@
+name: Trigger 4
+on:
+  workflow_call:
+
+jobs:
+  call-next:
+    uses: ./.github/workflows/trigger5.yml
