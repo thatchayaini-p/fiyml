@@ -1,0 +1,9 @@
+name: Trigger 10
+on:
+  workflow_call:
+
+jobs:
+  final-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Reached the final trigger 10!"
