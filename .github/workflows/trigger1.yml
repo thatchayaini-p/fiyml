@@ -1,0 +1,7 @@
+name: Trigger 1
+on:
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  call-next:
+    uses: ./.github/workflows/trigger2.yml
